@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anybody', cursive;
+
+}
+body{
+    background: linear-gradient(184deg, #86E5FF 24%, #FFC93C 100%);
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #86E5FF;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: black;
+    font-size: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 20px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.colum{
+   padding-top: 140px;
+   
+}
+.colum .main-text h1{
+    font-size: 50px;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.colum .main-text p{
+    text-align: justify;
+    max-width: 100%;
+    width: 20cm;
+    color: black;
+    line-height: 1.8;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.colum .main-text{
+    display: flex;
+    flex-direction: row;
+
+}
+.content h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.content p{
+    text-align: justify;
+    max-width: 100%;
+    width: 20cm;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-left: 5%;
+    padding-right:5%;
+}
+.sosmed ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.sosmed svg{
+    width: 80px;
+    height: 80px;
+    padding: 20px 10px;
+}
+.sosmed ul li a svg{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.sosmed ul li a:hover svg{
+    color: rgb(255, 255, 255);
+}
+.sosmed h1{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.image{
+    width: 400px;
+    background-color: #FFC93C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 10%;
+    display: inline-block;
+}
+.container{
+    text-align: center;
+    padding: 10px 20px;
+}
